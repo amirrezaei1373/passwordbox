@@ -2,11 +2,11 @@
   svg {
       width: 30px;
       height: 30px;
-      transform: rotate(-90deg) !important;
+      transform: rotate(-136deg) !important;
       position: relative;
       right: 0;
       background-color: #343c44;
-      z-index: 20;
+      z-index: 200;
   }
   .passwordBox{
       position: fixed;
@@ -22,9 +22,9 @@
       border-radius:10px;
   }
   .passwordBox::before{
-      display: var(--pseudo-displaye);
+      display: var(--pseudo-display);
       content: "";
-      position: flex;
+      position: fixed;
       background: linear-gradient(-450deg, 
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.8),
@@ -49,7 +49,7 @@
    }
    #password{
        background-color: transparent;
-       width:100px;
+       width:180px;
        height: 75%;
        border: none;
        outline: none;

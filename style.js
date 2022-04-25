@@ -9,7 +9,7 @@ svg.addEventListener('click', clickSvg);
 function clickSvg() {
     const type = 
     passwordInput.getAttribute('type') === 'password' ? 'text' : 'password' ;
-    passwordInput.getAttribute('type', type);
+    passwordInput.setAttribute('type', type);
     getComputedStyle(root).getPropertyValue("--pseudo-display") === "none"
      ? root.style.setProperty("--pseudo-display", "block")
      : root.style.setProperty("--pseudo-display", "none");
